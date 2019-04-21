@@ -30,14 +30,14 @@
   <remove-project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.4" name="CustomROMs/android_prebuilts_gcc_linux-x86_arm_arm-eabi-7.4" groups="pdk,linux,arm" clone-depth="1" revision="lineage-15.1" />
-  <project path="device/samsung/midas" name="fourkbomb/android_device_samsung_midas" revision="lineage-15.1" />
+  <project path="device/samsung/midas" name="LineageOS-midas/android_device_samsung_midas" revision="lineage-15.1" />
   <remove-project name="LineageOS/android_external_libdrm" />
-  <project path="external/libdrm" name="fourkbomb/android_external_libdrm" revision="lineage-15.1" />
+  <project path="external/libdrm" name="LineageOS-midas/android_external_libdrm" revision="lineage-15.1" />
   <remove-project name="platform/external/mesa3d" />
-  <project path="external/mesa-lima" name="fourkbomb/mesa-lima" revision="lima-17.3-exynos" />
-  <project path="external/gbm_gralloc" name="fourkbomb/gbm_gralloc" revision="oreo-rework" />
+  <project path="external/mesa-lima" name="LineageOS-midas/mesa-lima" revision="lima-17.3-android" />
+  <project path="external/gbm_gralloc" name="LineageOS-midas/gbm_gralloc" revision="lineage-15.1" />
 
-  <project path="kernel/samsung/midas" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="android-4.17" />
+  <project path="kernel/samsung/midas" name="LineageOS-midas/android_kernel_samsung_smdk4412" revision="android-4.17" />
 
   <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1" />
   <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-15.1" />
